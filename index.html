@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/jpg" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<title>hackTAMS</title>
+</head>
+
+<body onload="myFunction2()">
+<img class="quack" src="duck.png"></img>
+<div class="content-section">
+<h1 class="title">hackTAMS is <em>LIVE NOW!</em></h1>
+<div class="spacer-half"></div>
+<ul class="info-links">
+<li class="list-item">
+<div class="item-content">
+<b>Schedule: </b>
+Scroll down to see the full schedule
+</div>
+</li>
+<li class="list-item">
+<div class="item-content">
+<b>Judging: </b>
+Scroll down past the schedule to see specific criterias for tracks/challenges
+</div>
+</li>
+<li class="list-item">
+<div class="item-content">
+<b>Discord: </b>
+All communication will be done through
+<a class="link" href="https://discord.gg/MCbxwwwa" target="blank">Discord</a>
+</div>
+</li>
+<li class="list-item">
+<div class="item-content">
+<b>Devpost: </b>
+Project submissions/prizes on
+<a class="link" href="https://hacktams-2023.devpost.com/?ref_feature=challenge&ref_medium=discover" target="blank">Devpost</a>
+</div>
+</li>
+<li class="list-item">
+<div class="item-content">
+<b>Virtual-Venue: </b>
+Connect with hackers on our
+<a class="link" href="https://venue.hacktams.org" target="blank">Virtual Venue</a>!
+</div>
+</li>
+<li class="list-item">
+<div class="item-content">
+<b>Minecraft: </b>
+<a class="link" href="https://mc.hacktams.org" target="blank">mc.hacktams.org</a>
+</div>
+</li>
+<li class="list-item">
+<div class="item-content">
+<b>Emergency Contact: </b>Jeongwoo Choi<br>
+<b>Phone Number: </b>(817) 823-7302 <br>
+<b>Email: </b><a class="link" href="mailto" target="blank">jon@hacktams.org</a>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="schedule content-section">
+<h1>Schedule</h1>
+<center><button onclick="myFunction()" id="myButton1">Click for Virtual Schedule!</button></center>
+<br>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      var y = document.getElementById("myDIV2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+      } else {
+        x.style.display = "none";
+        y.style.display = "block";
+      }
+      var elem = document.getElementById("myButton1");
+      if (elem.innerHTML=="Click for Virtual Schedule!") {
+        elem.innerHTML = "Click for In-Person Schedule!";
+      } else {elem.innerHTML = "Click for Virtual Schedule!"};
+    }
+
+    function myFunction2() {
+      var x = document.getElementById("myDIV");
+      var y = document.getElementById("myDIV2");
+      x.style.display = "block";
+      y.style.display = "none";
+    }
+</script>
+
+
+<center><em>All times are in CST (UTC-6)</em></center>
+<div id="myDIV">
+<h2>Saturday, 1/28</h2>
+<ul>
+<li class="">
+<span class="time">1:00 PM</span>
+<a href="" target="_blank">Check-in (Willis Entrance)</a>
+</li>
+<li class="">
+<span class="time">2:00 PM</span>
+<a href="" target="_blank">Opening Ceremony (Willis 250H)</a>
+</li>
+<li class="">
+<span class="time">2:30 PM</span>
+<a href="" target="_blank">Team Formation (Willis 250H)</a>
+</li>
+<li class="">
+<span class="time">3:00 PM</span>
+<a href="" target="_blank">Hacking Starts!</a>
+</li>
+<li class="speakers">
+<span class="time">4:00 PM</span>
+<a href="" target="_blank">College Main Panel (Willis 250H)</a>
+</li>
+<li class="speakers">
+<span class="time">5:00 PM</span>
+<a href="" target="_blank">Guest Speaker #1 (Willis 250H)</a>
+</li>
+<li class="speakers">
+<span class="time">5:00 PM</span>
+<a href="" target="_blank">College Stations (Willis 250H)</a>
+</li>
+<li class="">
+<span class="time">6:00 PM</span>
+<a href="" target="_blank">Dinner (Willis First Floor)</a>
+</li>
+<li class="speakers">
+<span class="time">7:00 PM</span>
+<a href="" target="_blank">Guest Speaker #2 (Willis 250H)</a>
+</li>
+<li class="speakers">
+<span class="time">8:00 PM</span>
+<a href="" target="_blank">Guest Speaker #3 (Willis 250H)</a>
+</li>
+</li>
+<li class="workshop">
+<span class="time">9:00 PM</span>
+<a href="" target="_blank">MLH Mini Event #1 (Willis 250H)</a>
+</li>
+<li class="">
+<span class="time">10:00 PM</span>
+<a href="" target="_blank">Just Dance Competition (Willis 250H)</a>
+</li>
+<li class="workshop">
+<span class="time">11:00 PM</span>
+<a href="" target="_blank">MLH Mini Event #2 (Willis 250H)</a>
+</li>
+<li class="">
+<span class="time">12:00 AM</span>
+<a href="" target="_blank">Video Games Night (Willis 250H)</a>
+</li>
+</ul>
+
+<h2>Sunday, 1/29</h2>
+<ul>
+<li class="">
+<span class="time">8:00 AM</span>
+<a href="" target="_blank">Breakfast (Willis First Floor)</a>
+</li>
+<li class="speakers">
+<span class="time">10:00 AM</span>
+<a href="" target="_blank">Guest Speaker #4 (Willis 250H)</a>
+</li>
+<li class="speakers">
+<span class="time">11:00 AM</span>
+<a href="" target="_blank">Guest Speaker #5 (Willis 250H)</a>
+</li>
+<li class="">
+<span class="time">12:00 PM</span>
+<a href="" target="_blank">Lunch (Willis First Floor)</a>
+</li>
+<li class="">
+<span class="time">1:00 PM</span>
+Please start Devpost submission!
+</li>
+<li class="judge">
+<span class="time">2:00 PM</span>
+Please upload demo video!!
+</li>
+<li class="judge">
+<span class="time">2:30 PM</span>
+Please submit Devpost!!!
+</li>
+<li class="judge">
+<span class="time">3:00 PM</span>
+Hacking Ends + Project Submission Deadline
+</li>
+<li class="">
+<span class="time">6:00 PM</span>
+<a href="" target="_blank">Closing Ceremony (Zoom)</a>
+</li>
+</ul>
+</div>
+
+
+<div id="myDIV2">
+<h2>Saturday, 1/28</h2>
+<ul>
+<li class="">
+<span class="time">2:00 PM</span>
+<a href="" target="_blank">Opening Ceremony (Zoom)</a>
+</li>
+<li class="">
+<span class="time">2:30 PM</span>
+<a href="" target="_blank">Team Formation (Zoom)</a>
+</li>
+<li class="">
+<span class="time">3:00 PM</span>
+<a href="" target="_blank">Hacking Starts!</a>
+</li>
+<li class="speakers">
+<span class="time">4:00 PM</span>
+<a href="" target="_blank">College Main Panel (Zoom)</a>
+</li>
+<li class="speakers">
+<span class="time">5:00 PM</span>
+<a href="" target="_blank">Guest Speaker #1 (Zoom)</a>
+</li>
+<li class="speakers">
+<span class="time">5:00 PM</span>
+<a href="" target="_blank">College Stations (Zoom)</a>
+</li>
+<li class="speakers">
+<span class="time">7:00 PM</span>
+<a href="" target="_blank">Guest Speaker #2 (Zoom)</a>
+</li>
+<li class="speakers">
+<span class="time">8:00 PM</span>
+<a href="" target="_blank">Guest Speaker #3 (Zoom)</a>
+</li>
+</li>
+<li class="workshop">
+<span class="time">9:00 PM</span>
+<a href="" target="_blank">MLH Mini Event #1 (Zoom)</a>
+</li>
+<li class="workshop">
+<span class="time">11:00 PM</span>
+<a href="" target="_blank">MLH Mini Event #2 (Zoom)</a>
+</li>
+<li class="">
+<span class="time">12:00 AM</span>
+<a href="" target="_blank">Video Games Night (Zoom)</a>
+</li>
+</ul>
+
+<h2>Sunday, 1/29</h2>
+<ul>
+<li class="speakers">
+<span class="time">10:00 AM</span>
+<a href="" target="_blank">Guest Speaker #4 (Zoom)</a>
+</li>
+<li class="speakers">
+<span class="time">11:00 AM</span>
+<a href="" target="_blank">Guest Speaker #5 (Zoom)</a>
+</li>
+<li class="">
+<span class="time">1:00 PM</span>
+Please start Devpost submission!
+</li>
+<li class="judge">
+<span class="time">2:00 PM</span>
+Please upload demo video!!
+</li>
+<li class="judge">
+<span class="time">2:30 PM</span>
+Please submit Devpost!!!
+</li>
+<li class="judge">
+<span class="time">3:00 PM</span>
+Hacking Ends + Project Submission Deadline
+</li>
+<li class="">
+<span class="time">6:00 PM</span>
+<a href="" target="_blank">Closing Ceremony (Zoom)</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+<div class="content-section split">
+<h1>Tracks</h1>
+<div class="left hack-track">
+<h3>Hack Track</h3>
+The Hack track is geared towards students who have an
+interest in computer science and those who want to build a working
+prototype. In other words, this is your typical hackathon competition.
+<br><br>
+<strong>Criteria:</strong><br>
+Originality/Creativity (33%)<br>
+Practical Implementation (33%)<br>
+Technical Complexity (33%)<br>
+</div>
+<div class="right design-track">
+<h3>Design Track</h3>
+The Design track is for students who do not enjoy
+programming but have a creative passion for making things! For this track,
+you need to submit a mockup and design of your idea.
+<br><br>
+<strong>Criteria:</strong><br>
+Originality/Creativity (33%)<br>
+Practical Implementation (33%)<br>
+Completeness and Polishness (33%)<br>
+</div>
+</div>
+
+<div class="content-section split">
+<h1 class="title">Prizes</h1>
+<div class="left">
+<div>
+<b class="subsection-title">1st Place Hack</b><br />
+Best hackathon project!<br>
+<em>Prize: Ducky One 2 Skyline TKL Double Shot PBT Mechanical Keyboard</em><br>
+<br />
+<b class="subsection-title">2nd Place Hack</b><br />
+Second best hackathon project!<br />
+<em>Prize: Fujifilm Instax Mini 11 Instant Camera</em><br>
+<br>
+<b class="subsection-title">3rd Place Hack</b><br />
+Third best hackathon project!<br>
+<em>Prize: HyperX Cloud Stinger Core - Wireless Gaming Headset</em><br />
+<br />
+</div>
+</div>
+<div class="right">
+<div>
+<b class="subsection-title">1st Place Design</b><br />
+Best design project!<br>
+<em>Prize: Drawing Tablet XPPen StarG640 Digital Graphics Tablet</em><br>
+<br />
+
+<b class="subsection-title">Funniest Project</b><br />
+Most funny project!<br>
+<em>Prize: LEGO Star Wars The Mandalorian & The Child</em><br>
+<br />
+
+<b class="subsection-title">Most Impactful Project</b><br />
+Most impactful project!<br>
+<em>Prize: Educa - Antique World Map - 1000 Piece Jigsaw Puzzle</em><br>
+<br />
+
+
+
+
+</div>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+body {
+    color: white;
+    background: linear-gradient(180deg, #21212110, #212121), url('background.png');
+    background-repeat: repeat;
+    font-family: 'Grandstander', cursive;
+    font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1 {
+    margin-top: 5rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #2757bf;
+    border: #07309f 6px solid;
+    margin: 0.25rem 0;
+    color: #fff;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Grandstander', cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffbe31;
+}
+
+.link {
+    color: #ffbe31 !important;
+}
+
+.link:hover {
+    color: #ffedc6 !important;
+}
+
+.spacer {
+    padding: 3rem;
+}
+
+.spacer-half {
+    padding: 1.5rem;
+}
+
+.content-section {
+    width: 100%;
+    text-align: center;
+}
+
+.quack {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    right: 6rem;
+    top: 6rem;
+    animation-duration: 8s;
+    animation-name: wobble;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.info-links {
+    list-style-type: none;
+    margin: 1rem auto;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+}
+
+.list-item {
+    text-align: center;
+    margin: auto;
+}
+
+.item-content {
+    border: 3px solid #aaaaaa;
+    margin: 1rem auto;
+    font-size: 2rem;
+    padding: 0.75rem;
+}
+
+.schedule {
+    margin: auto;
+    text-align: left;
+    width: 50vw;
+}
+
+.schedule ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.schedule li {
+    padding: 0.75rem;
+    background-image: url('/images/stippling-right.png');
+    background-position: right;
+    background-size: 50%;
+    background-repeat: repeat-y;
+    background-color: #5627bf;
+    border: #36079f 6px solid;
+    margin: 0.25rem 0;
+    color: #fff;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.schedule h3 {
+    font-size: 2rem;
+}
+
+.schedule em {
+    margin: auto;
+    text-align: center;
+}
+
+.schedule .time {
+    padding-right: 4rem;
+}
+
+.schedule .workshop {
+    background-color: #c55dc3;
+    color: #000;
+    border-color: #a53da3;
+}
+
+.schedule .speakers {
+    background-color: #4bf;
+    color: #000;
+    border-color: #29d;
+}
+
+.schedule .judge {
+    background-color: yellow;
+    border-color: gold;
+    color: black;
+}
+
+.split {
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3rem;
+}
+
+.right {
+    text-align: right;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3rem;
+}
+
+.subsection-title {
+    font-size: 1.3em;
+    color: #ffbe31;
+}
+
+@keyframes wobble {
+    0% {
+        transform: rotate(0deg);
+        right: 110px;
+        top: 100px;
+    }
+    20% {
+        transform: rotate(10deg);
+        right: 101px;
+        top: 95px;
+    }
+    40% {
+        transform: rotate(-5deg);
+        right: 105px;
+        top: 102px;
+    }
+    60% {
+        transform: rotate(15deg);
+        right: 97px;
+        top: 110px;
+    }
+    80% {
+        transform: rotate(-10deg);
+        right: 106px;
+        top: 105px;
+    }
+    100% {
+        transform: rotate(0deg);
+        right: 110px;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .quack {
+        display: none;
+    }
+    .schedule, .info-links {
+        width: 70%;
+    }
+    .left, .right {
+        text-align: center;
+        width: 90%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .schedule, .info-links {
+        width: 95%;
+    }
+    html {
+        font-size: 14px;
+    }
+    .schedule .time {
+        padding-right: 2rem;
+    }
+}
