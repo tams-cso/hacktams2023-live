@@ -30,7 +30,7 @@ h3 {
 
 button {
     padding: 0.75rem;
-    background-color: #2757bf;
+    background-color: #577bfa;
     border: #07309f 6px solid;
     margin: 0.25rem 0;
     color: #fff;
@@ -123,8 +123,8 @@ a:hover {
     background-position: right;
     background-size: 50%;
     background-repeat: repeat-y;
-    background-color: #5627bf;
-    border: #36079f 6px solid;
+    background-color: #6547b6;
+    border: #5627bf 6px solid;
     margin: 0.25rem 0;
     color: #fff;
     border-radius: 1rem;
@@ -148,20 +148,20 @@ a:hover {
 }
 
 .schedule .workshop {
-    background-color: #c55dc3;
+    background-color: #b863be;
     color: #000;
     border-color: #a53da3;
 }
 
 .schedule .speakers {
-    background-color: #4bf;
+    background-color: #67b8f9;
     color: #000;
     border-color: #29d;
 }
 
 .schedule .judge {
-    background-color: yellow;
-    border-color: gold;
+    background-color: #f8da4a;
+    border-color: rgb(141, 121, 6);
     color: black;
 }
 
