@@ -2,7 +2,7 @@ body {
     color: white;
     background: linear-gradient(180deg, #21212110, #212121), url('background.png');
     background-repeat: repeat;
-    font-family: 'Montserrat', cursive;
+    font-family: 'Grandmaster', cursive;
     font-size: 1.75rem;
 }
 
@@ -39,7 +39,7 @@ button {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    font-family: 'Montserrat', cursive;
+    font-family: 'Grandmaster', cursive;
 }
 
 a {
